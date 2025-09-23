@@ -1,21 +1,5 @@
 function printMultiplicationTables() {
-    const size = 11; 
-    let header = "    "; 
-  
-    // construimos la cabecera
-    for (let i = 1; i <= size; i++) {
-      header += i.toString().padStart(4, " ");
-    }
-    console.log(header);
-  
-    // construimos cada fila
-    for (let row = 1; row <= size; row++) {
-      let line = row.toString().padStart(4, " "); // primera columna (número de fila)
-      for (let col = 1; col <= size; col++) {
-        line += (row * col).toString().padStart(4, " ");
-      }
-      console.log(line);
-    }
+
   }
   
   
